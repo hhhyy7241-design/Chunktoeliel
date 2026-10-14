@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft ambient shadow beneath the badge -->
+    <path
+        android:pathData="M54,55m-27,0a27,27 0 1,0 54,0a27,27 0 1,0 -54,0"
+        android:fillColor="#150284C7" />
+
+    <!-- Pastel soft-blue rounded container matching screenshot style -->
+    <path
+        android:pathData="M54,27 C68.91,27 81,39.09 81,54 C81,68.91 68.91,81 54,81 C39.09,81 27,68.91 27,54 C27,39.09 39.09,27 54,27 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="27"
+                android:endX="81"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0F2FE" />
+                <item android:offset="1.0" android:color="#BAE6FD" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle inner highlight ring -->
+    <path
+        android:pathData="M54,27 C68.91,27 81,39.09 81,54 C81,68.91 68.91,81 54,81 C39.09,81 27,68.91 27,54 C27,39.09 39.09,27 54,27 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#7DD3FC" />
+
+    <!-- Sleek forward speed paper-plane / download arrow icon matching the screenshot -->
+    <path
+        android:pathData="M40.5,52.2 L64.8,39.6 C65.8,39.1 66.9,40.2 66.4,41.2 L53.8,65.5 C53.2,66.6 51.6,66.4 51.3,65.2 L48.8,55.8 L58.5,46.1 C58.9,45.7 58.3,45.1 57.9,45.5 L48.2,55.2 L38.8,52.7 C37.6,52.4 37.4,50.8 38.5,50.2 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="40"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0EA5E9" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center dynamic fold accent -->
+    <path
+        android:pathData="M48.8,55.8 L53.8,65.5 L58.5,46.1 Z"
+        android:fillColor="#0369A1" />
+
+</vector>
